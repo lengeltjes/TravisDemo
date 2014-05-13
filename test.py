@@ -6,7 +6,7 @@ def test_een():
 	
 def test_twee():
 	# Test of een plus twee vijf is
-	assert 1 + 2 == 5
+	assert 1 + 3 == 5
 	
 def test_drie():
 	# Test of je door 0 kan delen
@@ -22,7 +22,7 @@ def test_vier():
 
 from nose.tools import *
 
-@raises(ZeroDivisionError)
+@raises(ZeroDivisionError) #
 def test_vijf():
 	# Deze test hoort een ZeroDivisionError te gooien
 	0/0

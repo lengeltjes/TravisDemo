@@ -22,7 +22,7 @@ def test_vier():
 
 from nose.tools import *
 
-@raises(ZeroDivisionError) #
+@raises(ZeroDivisionError)
 def test_vijf():
 	# Deze test hoort een ZeroDivisionError te gooien
 	0/0

@@ -6,7 +6,7 @@ def test_een():
 	
 def test_twee():
 	# Test of een plus twee vijf is
-	assert 1 + 3 == 5
+	assert 1 + 4 == 5
 	
 def test_drie():
 	# Test of je door 0 kan delen
